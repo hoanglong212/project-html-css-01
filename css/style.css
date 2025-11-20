@@ -1,0 +1,130 @@
+html
+{
+    font-size: 62.5%;
+    
+    
+    
+}
+:root
+{
+    --primary-text-color: #171100;
+    --background--color: #fffcf4;
+    --white-color:#fff;
+
+
+}
+
+.header
+{
+    
+    padding-top: 44px;
+    background-color: #FFFCF4;
+    padding-bottom: 44px;
+}
+
+body
+{
+    font-size: 1.6rem;
+    font-family: 'Poppins',sans-ser9f;
+    
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+/* header section */
+header nav a
+{
+    
+    font-size: 1.6rem;
+    line-height: 28px;
+    margin-left: 21px;
+    margin-right: 21px;
+    color : var(--primary-text-color);
+    display: flex;
+    
+    
+}
+
+.header .body
+{
+    display:flex;
+    align-items: center;
+    
+}
+
+.header nav ul
+{ 
+    display: flex;   
+}
+
+.header nav 
+{
+    margin-left: auto;
+}
+
+.header .main-content
+{
+    width: 1170px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 16px);
+    
+}
+
+.header nav a.Home
+{
+    font-weight: 600;
+    color: var(--primary-text-color);
+    position: relative; 
+    /* lay chinh no lam goc toa do */
+}
+.header nav a.Home::after
+{
+    content: "";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    background-color: var(--background--color);
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    
+}
+
+div a.signup
+{
+    background-color: #171100;
+    width: 144px;
+    line-height: 50px;
+    color:var(--white-color);
+    border-radius: 24.5px;
+    -webkit-border-radius: 24.5px;
+    -moz-border-radius: 24.5px;
+    -ms-border-radius: 24.5px;
+    -o-border-radius: 24.5px;
+    text-align: center;
+    margin-left: 49px;
+
+}
+
+.header nav a:hover
+{   
+    color: var(--primary-text-color);
+    text-shadow: 1px 0 0 currentColor;
+    
+}
