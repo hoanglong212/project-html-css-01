@@ -252,6 +252,11 @@ li {
   margin-left: 10px;
 }
 
+.selection
+{
+  margin-bottom: 111px;
+}
+
 /* selection */
 .selection div .description .main  {
   margin-top: 153px;
@@ -270,11 +275,6 @@ li {
   width: 438px;
   color: var(--second-text-color);
   margin-top: 16px;
-}
-
-.selection
-{
-  margin-bottom: 111px;
 }
 
 .selection .main-content {
