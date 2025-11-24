@@ -254,7 +254,7 @@ li {
 
 .selection
 {
-  margin-bottom: 200px;
+  margin-bottom: 111px;
 }
 
 /* selection */
@@ -302,7 +302,15 @@ li {
   margin-right: 30px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
+  
 }
+.main-content .option .option1:hover,
+.main-content .option .option2:hover,
+.main-content .option .option3:hover{
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8),
+    0 0 24px rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+  transition: 0.25s ease;}
 
 .main-content .option .option1 .description,
 .main-content .option .option2 .description,
@@ -374,4 +382,3 @@ li {
 .main-content .option .option3 .description img {
   float: right;
 }
-
