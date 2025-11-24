@@ -272,6 +272,11 @@ li {
   margin-top: 16px;
 }
 
+.selection
+{
+  margin-bottom: 111px;
+}
+
 .selection .main-content {
   align-items: center;
   display: flex;
