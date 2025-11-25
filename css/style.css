@@ -357,8 +357,9 @@ li {
   font-weight: 500;
 }
 
-.main-content .option .option1 .cost a
-{
+.main-content .option .option1 .cost a,
+.main-content .option .option2 .cost a,
+.main-content .option .option3 .cost a {
   width: 118px;
   height: 50px;
   background-color: #ffb900;
