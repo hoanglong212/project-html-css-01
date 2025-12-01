@@ -405,9 +405,7 @@ li {
 .individual-quote{
 background-color: #2E2100;
 display: flex;
-width: 1440px;
-margin-left: auto;
-margin-right: auto  ;
+justify-content: center;
 height: 380px;
 }
 
@@ -892,4 +890,167 @@ height: 380px;
   display: flex;
   margin-left: 570px;
 
+}
+
+/*  */
+
+
+
+
+footer
+{
+  background-color: #2E2100 ;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+footer .direct .info span
+{
+  font-family: var(--font-heading);
+  font-size: 14px;
+  line-height: 26px;
+  color: #BFBCB2;
+  width: 267px;
+  display: block;
+  margin-top: 18px;
+}
+
+
+footer .direct .info .social-platform img
+{
+  margin-right: 18px;
+  width: 18px;
+  height: 15px;
+  margin-top: 18px;
+}
+
+footer .direct .info .social-platform
+{
+  display: flex;
+}
+
+
+footer .main-content .direct
+{
+  display: block;
+  margin-right: 145px;
+}
+
+footer .main-content  {
+  display: flex;
+  margin-top: 96px;
+}
+
+
+footer .contact-info .line
+{
+  width: 130px;
+  height: 1px;
+  opacity: 1; 
+  background-color: #59554B;
+  margin-top: 14px;
+  margin-bottom: 28px;
+}
+
+footer .contact-info 
+{
+  display: flex;
+
+}
+
+footer .contact-info div:not(div .line , div .row)
+
+{
+  margin-right: 130px;
+}
+
+.support
+{
+  width: 137px;
+}
+
+.company span,
+.support span
+{
+  display: block;
+}
+
+.company span:not(:first-child),
+.support span:not(:first-child)
+{
+  font-family: var(--font-heading);
+  font-size: 14px;
+  line-height: 26px;
+  color: #BFBCB2;
+  margin-bottom: 12px;
+}
+
+.company span:first-child,
+.support span:first-child
+{
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.address
+{
+  width: 231px;
+}
+
+.address .row 
+{
+  margin-bottom: 12px;
+}
+
+.address > span:first-child {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 28px;
+  font-family: var(--font-heading);
+  color: #FFFFFF;
+}
+
+.address .row span
+{
+  display: inline;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: var(--font-heading);
+  color:#BFBCB2;
+  width: 231px;
+}
+
+.address .row .label
+{
+  font-weight: 600;
+  color: #FFFFFF;
+}
+footer .line
+{
+  width: 130px;
+  height: 1px;
+  opacity: 1; 
+  background-color: #59554B;
+  margin-top: 14px;
+  margin-bottom: 28px;
+}
+
+footer .line {
+  width: 1170px;
+  
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  line-height: 26px;
+  font-family: var(--font-heading);
 }
